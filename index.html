@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="maintext">currency converter</h1>
+        <div class="inputcontain">
+            <input type="number" class="input" id="inputamount" placeholder="enter a amount">
+        </div>
+        <div class="selectcontainer">
+            <select id="from-currency" class="select">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="INR">INR</option>
+                <option value="GBY">GBY</option>
+                <option value="JPY">JPY</option>
+            </select>
+            <span class="totext">
+                &nbsp;&nbsp;&nbsp;&nbsp;to&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <select id="to-currency" class="select">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="INR">INR</option>
+                <option value="GBP">GBP</option>
+                <option value="JPY">JPY</option>
+            </select>
+        </div>
+        <div class="result">
+            <p class="conversion-result" id="converted-result">Converted Amount:<br><span class="amount">0</span></p>
+        </div>
+        <button id="buttoncontain" class="btn">convert</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
